@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon Perl bug related to the unordered iteration of hashes. The script `bug.pl` showcases the issue, where the output order of key-value pairs from a hash is not consistent across different Perl environments.  The solution, `bugSolution.pl`, provides a method to ensure consistent order if needed, using `sort`.
